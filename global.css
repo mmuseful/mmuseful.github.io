@@ -5,7 +5,10 @@
 }
 
 header {
-  font-size: 2vh;
+  font-size: 4vh;
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
 }
 
 footer {
@@ -22,4 +25,10 @@ footer {
   padding: 14px 28px;
   cursor: pointer;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	header{
+		font-size : 1.5vh;
+	}
 }
