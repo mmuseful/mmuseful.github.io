@@ -4,6 +4,39 @@
   border: 0.5vh solid coral;
 }
 
+.border {
+  border: 0.5vh solid coral;
+}
+
+.d-table {
+  display:table;
+  margin: 0 auto;
+    font-size: 3vh;
+}
+
+.d-table-cell {
+  display:table-cell;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.tar {
+  text-align: right;
+  padding-right: 5vw;
+}
+
+.ViewButton{
+  font-size: 1.75vh;
+  color: black;
+  border-radius: 25px;
+  border: 0.1vh solid black;
+  background-color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
 header {
   font-size: 4vh;
 }
